@@ -1,0 +1,7 @@
+Include: include/setup.vader
+
+Do(insert of one left parens to the buffer):
+  i(
+
+Expect(closing right parens to be added):
+  ()
